@@ -1,0 +1,24 @@
+<!–– Exercise: Nest text field inside a form element ––>
+
+<h2>Travel photo app</h2>
+<main>
+  <p>Click here to view more <a href="#">travel photos</a>.</p>
+  
+  <a href="#"><img src="https://farm2.staticflickr.com/1650/25417469265_89b15eeb1d_c.jpg" alt="Varanasi, India."></a>
+  
+  <p>Next destinations:</p>
+  <ul>
+    <li>Jordan</li>
+    <li>Russia</li>
+    <li>India</li>
+  </ul>
+  <p>Top Travel apps:</p>
+  <ol>
+    <li>mapify</li>
+    <li>coolcousin</li>
+    <li>airbnb</li>
+  </ol>
+  <form action="/submit-travel-photo">
+    <input type="text" placeholder="travel photo URL">
+  </form>
+</main>
